@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  font-family: cursive;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+
+.mat-header-cell {
+  padding-right: 24px;
+  font-size: 15px
+}
+
+.mat-cell {
+  padding-right: 24px;
+}

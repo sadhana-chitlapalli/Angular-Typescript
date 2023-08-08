@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "EsNEXT",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    /* Modules */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./",                                  /* Specify the root folder within your source files. */
+    "outDir": "./build",                                   /* Specify an output folder for all emitted files. */
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "src",
+    "package.json"
+  ]
+}

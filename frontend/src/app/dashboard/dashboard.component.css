@@ -1,0 +1,14 @@
+.example-card {
+  max-width: 300px;
+  height: 90%;
+  margin: 10px;
+  font-family: cursive;
+}
+
+.mat-card-subtitle {
+  margin-bottom: 0px !important;
+}
+
+.mat-card-actions {
+  margin-top: -10px !important;
+}

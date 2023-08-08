@@ -1,0 +1,25 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <div *ngFor="let city of cityDets">
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title>{{city.name}}</mat-card-title>
+            <mat-card-subtitle>City in {{city.country}}</mat-card-subtitle>
+            <mat-card-actions>
+              <a href="https://www.google.com/maps/search/{{city.latitude}},{{city.longitude}}" target="_blank">
+                <mat-icon style="font-size: larger;" title="Go to maps">launch</mat-icon>
+              </a>
+            </mat-card-actions>
+          </mat-card-header>
+          <hr>
+          <mat-card-content>
+            <p><b>Population:</b> {{city.population}}</p>
+            <p><b>Founded:</b> {{city.founded}}</p>
+            <p><b>Popular landmarks :</b> {{city.landmarks}}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
